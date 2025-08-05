@@ -1,0 +1,31 @@
+Java : Percentage of students
+
+import java.util.Scanner;
+
+public class Percentage {
+    public static void main(String[] args) {
+        System.out.println("Marks of student:");
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Enter number 1:");
+        int a = sc.nextInt();
+
+        System.out.println("Enter number 2:");
+        int b = sc.nextInt();
+
+        System.out.println("Enter number 3:");
+        int c = sc.nextInt();
+
+        System.out.println("Enter number 4:");
+        int d = sc.nextInt();
+
+        System.out.println("Enter number 5:");
+        int e = sc.nextInt();
+
+        int total = a + b + c + d + e;
+        int percentage = (total * 100) / 500;
+
+        System.out.println("Percentage: " + percentage + "%");
+    }
+}
