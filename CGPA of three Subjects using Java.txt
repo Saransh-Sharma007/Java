@@ -1,0 +1,21 @@
+CGPA of three Subjects 
+
+import java.util.Scanner;
+
+class CGPA{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        
+        System.out.println("Enter marks of first subject: ");
+        float a = sc.nextFloat();
+        
+        System.out.println("Enter marks of second subject: ");
+        float b = sc.nextFloat();
+        
+        System.out.println("Enter marks of third subject: ");
+        float c = sc.nextFloat();
+        
+        float cgpa = (a+b+c)/30;
+        System.out.println(cgpa);
+    }
+}
